@@ -1,0 +1,76 @@
+# Window Customization
+window:
+  dimensions:
+    columns: 140
+    lines: 38
+  padding:
+    x: 25
+    y: 25
+  decorations: none
+scrolling:
+  history: 10000
+  multiplier: 3
+background_opacity: .95
+window.dynamic_title: true
+
+# Font Customization
+font:
+  size: 10
+
+# Colors (Base 16 Default Dark)
+colors:
+  # Default colors
+  primary:
+    background: '#0A0E14'
+    foreground: '#B3B1AD'
+
+  # Cursor colors
+  cursor:
+   text: '#FF261E'
+   cursor: '#F07178'
+
+  # Normal colors
+  normal:
+    black: '#01060E'
+    red: '#EA6C73'
+    green: '#91B362'
+    yellow: '#F9AF4F'
+    blue: '#53BDFA'
+    magenta: '#FAE994'
+    cyan: '#90E1C6'
+    white: '#C7C7C7'
+
+  # Bright colors
+  bright:
+    black: '#686868'
+    red: '#F07178'
+    green: '#C2D94C'
+    yellow: '#FFB454'
+    blue: '#59C2FF'
+    magenta: '#FFEE99'
+    cyan: '#95E6CB'
+    white: '#FFFFFF'
+
+  indexed_colors:
+    - { index: 16, color: '0xdc9656' }
+    - { index: 17, color: '0xa16946' }
+    - { index: 18, color: '0x282828' }
+    - { index: 19, color: '0x383838' }
+    - { index: 20, color: '0xb8b8b8' }
+    - { index: 21, color: '0xe8e8e8' }
+
+  selection:
+    text: '0xffffff'
+    background: '0xdc3232'
+    white:   '0xffffff'
+
+cursor:
+  style: Block
+  unfocused_hollow: true
+
+#     _____.___.____   _____________
+#     \__  |   |\   \ /   /   _____/
+#     /   |   | \   Y   /\_____  \ 
+#     \____   |  \     / /        \
+#     / ______|   \___/ /_______  /
+#     \/                        \/ 
