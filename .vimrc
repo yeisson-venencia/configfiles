@@ -19,7 +19,7 @@ set incsearch
 set hlsearch
 set number relativenumber
 
-set colorcolumn=80
+"set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 call plug#begin('~/.vim/plugged')
