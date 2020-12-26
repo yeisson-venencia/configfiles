@@ -34,6 +34,11 @@ alias ls="exa --color=always --group-directories-first"
 alias youdl="cd ~/Music/ ; youtube-dl -x --audio-format mp3 --prefer-ffmpeg"
 alias config="/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 
+### CONFIG FILE ALIASES ###
+alias cfv="vim ~/.vimrc"
+alias cfw="vim ~/.config/awesome/rc.lua"
+alias cfa="vim ~/.config/alacritty/alacritty.yml"
+alias cff="vim ~/.config/fish/conf.d/omf.fish"
 
 ### Exports ###
 export ML_PATH="$HOME/Documents/workspace/ml"
